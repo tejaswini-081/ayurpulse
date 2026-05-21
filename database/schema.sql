@@ -1,4 +1,5 @@
-CREATE TABLE users (
-    id INT PRIMARY KEY,
-    name VARCHAR(50)
+CREATE TABLE patients (
+    patient_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT
 );
